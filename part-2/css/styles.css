@@ -30,6 +30,8 @@ figure {
   width: 50%;
   height: 300px;
   margin: 40px auto;
+  float: left;
+  clear: both;
 }
 
 .film-poster
@@ -67,9 +69,4 @@ figure {
   position: absolute;
   bottom: 0;
   right: 0;
-}
-
-.film
-{
-  clear: both;
 }
