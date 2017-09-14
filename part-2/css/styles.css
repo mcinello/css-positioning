@@ -13,17 +13,48 @@ html {
 
 body {
   margin: 0;
+  width: 70%;
 }
 
 img {
-  max-width: 100%;
+  max-width: 40%;
+  float: left;
 }
 
 figure {
   margin: 0;
 }
 
+.film-poster
+{
+  overflow: hidden;
+  border: 1px solid grey;
+}
+
 .film {
   width: 50%;
   margin: 40px auto;
+}
+
+.film-poster
+{
+  overflow: hidden;
+  border: 1px solid grey;
+  display: inline;
+}
+
+.film-details
+{
+  float: right;
+  width: 60%;
+  bo
+}
+
+.action-watch-later
+{
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  right: 35px;
+  color: red;
 }
