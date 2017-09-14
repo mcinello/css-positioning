@@ -28,6 +28,7 @@ figure {
 
 .film {
   width: 50%;
+  height: 300px;
   margin: 40px auto;
 }
 
@@ -44,6 +45,7 @@ figure {
 {
   float: right;
   width: 60%;
+  height: 100%;
   position: relative;
   right: 40px;
   bottom: 320px;
@@ -62,6 +64,9 @@ figure {
 {
   float: right;
   color: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .film
