@@ -17,18 +17,13 @@ body {
 }
 
 img {
-  max-width: 40%;
+  max-width: 30%;
   float: left;
+  position: relative;
 }
 
 figure {
   margin: 0;
-}
-
-.film-poster
-{
-  overflow: hidden;
-  border: 1px solid grey;
 }
 
 .film {
@@ -38,16 +33,20 @@ figure {
 
 .film-poster
 {
+  float: left;
   overflow: hidden;
   border: 1px solid grey;
   display: inline;
+  padding: 15px;
 }
 
 .film-details
 {
   float: right;
   width: 60%;
-  bo
+  position: relative;
+  right: 40px;
+  bottom: 320px;
 }
 
 .action-watch-later
@@ -57,4 +56,15 @@ figure {
   top: 7px;
   right: 35px;
   color: red;
+}
+
+.action-like
+{
+  float: right;
+  color: red;
+}
+
+.film
+{
+  clear: both;
 }
