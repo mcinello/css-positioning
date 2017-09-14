@@ -31,6 +31,8 @@ figure {
   height: 300px;
   margin: 40px auto;
   float: left;
+  position: relative;
+  left: 20px;
   clear: both;
 }
 
